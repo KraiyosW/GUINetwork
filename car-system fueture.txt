@@ -1,0 +1,38 @@
+
+files
+1-car-system-0ut.py
+2-car-system-in.py
+3-car-system-location.py
+4-car-system-check.py
+
+############
+[1]-car-system-0ut.py
+	-server.py
+	function
+	- บันทึกเวลาออก
+	- คำนวณชั่วโมงจอด
+	- คำนวณค่าจอด
+	- 
+############
+[2]-car-system-in.py
+	-client-1.py
+	function
+	- เวลาเข้า
+	- รถ ยี่ห้อ สี ทะเบียน
+	- ส่งไปหา [1]
+	- บันทึกลงใน csv ตัวเอง
+############
+[3]-car-system-location.py
+	-client-1.py
+	fucution 
+	> ดึงข้อมูลรถจาก [1]
+	-surver.py
+	 > การบันทึกข้อมูลตำแหน่งโซนของรถได้
+	 > ส่งข้อมูลไปยัง [4]
+############
+[4]-car-system-check.py
+	- client-3.py
+	fucution 
+	 - ดึงข้อมูลรถจาก [3]
+	 - ดึงข้อมูลตำแหน่งโซนจาก [3]
+############
